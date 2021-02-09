@@ -83,7 +83,7 @@ body a {
 }
 
 .header {
-  background: #f4f9e2 url(../images/discuss.png) 100% no-repeat;
+  background: #f4f9e2 url(../img/discuss.png) 100% no-repeat;
 }
 
 .header__wrap {
@@ -323,7 +323,7 @@ body a {
 }
 
 .content-help__li_strawberry {
-  background: url("../images/strawberry.png") 0 0/cover no-repeat;
+  background: url("../img/strawberry.png") 0 0/cover no-repeat;
 }
 
 .content-help__row {
@@ -454,7 +454,7 @@ body a {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-around;
   margin: 0 auto;
   padding: 98px 0 0 0;
 }
