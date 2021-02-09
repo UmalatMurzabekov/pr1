@@ -440,3 +440,70 @@ body a {
   letter-spacing: -0.005em;
   padding: 0 0 80px 0;
 }
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-top__info {
+  width: 765px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 98px 0 0 0;
+}
+
+.footer-top-item {
+  width: 200px;
+  font-size: 14px;
+}
+
+.footer-top-item__title {
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  color: #22356f;
+  padding: 0 0 50px 0;
+}
+
+.footer-top-item__text {
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.footer-top-item__text span {
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+.footer-top-item__text a {
+  color: blue;
+}
+
+.footer-bottom {
+  height: 80px;
+  background: #62d0df;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-bottom__text {
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.006em;
+  padding: 0 0 0 180px;
+}
+
+.footer-bottom__text pre {
+  display: inline;
+}
